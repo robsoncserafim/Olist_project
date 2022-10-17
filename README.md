@@ -1,5 +1,7 @@
 # Olist_project
 Data science project using data from a Brazilian e-commerce company called Olist. SQL, Python, Exploratory analysis skills and Machine Learning were used to accomplish this project. 
+**For a better view of the project, please enter the google colab link present in the notebooks**
+
 
 ![e-commerce](https://user-images.githubusercontent.com/99512194/196061880-2f1d1799-f772-4635-b35f-95d53b6ed574.png)
 ## Exploratory Data Analysis
