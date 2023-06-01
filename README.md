@@ -19,9 +19,9 @@ Data science project using data from a Brazilian e-commerce company called Olist
 ## Classification Problem - Machine Learning with Random Forest and XGBoost
 
 In the present project I performed **Exploratory Data Analysis** on each of the tables to better understand the influence by category on Olist's business. Later, **using SQL language**, I created a Big table with the union between all the tables and performed a new exploratory analysis with confrontations between the most diverse features of the dataset.
-After creating the unified table and conducted the Exploratory Data Analysis, I performed **feature engineering, manipulating and transforming** the existing variables to create new relevant features for the problem at hand.
+After creating the unified table and conducting the Exploratory Data Analysis, I performed **feature engineering, data manipulation and transformation** on the existing variables to create new relevant features to the problem at hand
 
-Next, I defined the **target variable representing the review score and applied classification models**. I utilized **Random Forest and XGBoost**, popular algorithms for classification problems in machine learning, to predict and classify the data based on the available features.**
+Next, I defined the **target variable representing the evaluation score and applied classification models**. I used Pipelines of **Random Forest and XGBoost**, popular algorithms for classification problems in machine learning, to predict and classify the data based on the available features.
 
 **These additional steps of feature engineering and applying classification models allow for exploring patterns in the data, building a predictive model, and making decisions based on the obtained insights.**
 
