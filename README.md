@@ -1,4 +1,4 @@
-# Olist_project
+# Olist Prediction Project: EDA, Machine Learning and MLOps with MFlow and FASTAPI
 Data science project using data from a Brazilian e-commerce company called Olist. SQL, Python, Exploratory analysis skills and Machine Learning were used to accomplish this project. 
 **For a better view of the project, please enter the google colab link present in the notebooks**
 
@@ -26,6 +26,19 @@ Next, I defined the **target variable representing the evaluation score and appl
 **These additional steps of feature engineering and applying classification models allow for exploring patterns in the data, building a predictive model, and making decisions based on the obtained insights.**
 
 Note that the process of exploratory analysis, feature engineering, and applying machine learning models can be iterative, involving testing, adjusting, and continuous evaluation of the results.
+
+---
+
+## Experiment Tracking, Model Management and Deployment
+
+To manage the entire machine learning lifecycle, I integrated **MLflow** into the project. With MLflow I was able to:
+
+- Track experiments and log metrics for different runs.  
+- Save and version trained models.  
+- Register the best-performing model and promote it to the **"Staging"** stage of the MLflow Model Registry.  
+- Transition the best model to **"Production"** once validated.
+
+For deployment, I used **FastAPI** to expose the production model via a REST API, allowing external applications to make inference requests. This ensures the project is not only a data science study but also demonstrates the complete workflow of **experiment tracking, model management, and real-time inference**.
 
 
 ## Data Schema
