@@ -15,6 +15,13 @@ Data science project using data from a Brazilian e-commerce company called Olist
 7. Products 
 8. Sellers
 9. Product category name
+    
+## Data Schema
+
+The data is divided in multiple datasets for better understanding and organization.
+![dataschema_OLIST](https://user-images.githubusercontent.com/99512194/196061967-07e8b984-c563-4043-bdd3-8e0767a31787.png)
+
+---
 
 ## Classification Problem - Machine Learning with Random Forest and XGBoost
 
@@ -39,12 +46,3 @@ To manage the entire machine learning lifecycle, I integrated **MLflow** into th
 - Transition the best model to **"Production"** once validated.
 
 For deployment, I used **FastAPI** to expose the production model via a REST API, allowing external applications to make inference requests. This ensures the project is not only a data science study but also demonstrates the complete workflow of **experiment tracking, model management, and real-time inference**.
-
-
-## Data Schema
-
-The data is divided in multiple datasets for better understanding and organization.
-![dataschema_OLIST](https://user-images.githubusercontent.com/99512194/196061967-07e8b984-c563-4043-bdd3-8e0767a31787.png)
-
-
-
