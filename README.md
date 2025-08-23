@@ -1,4 +1,4 @@
-# Olist Project: EDA, Machine Learning and MLOps with MFlow and FASTAPI
+# Olist Project: EDA, Machine Learning and MLOps with MFlow and Fast API
 Data science project using data from a Brazilian e-commerce company called Olist. SQL, Python, Exploratory analysis skills and Machine Learning were used to accomplish this project. 
 **For a better view of the project, please enter the google colab link present in the notebooks**
 
