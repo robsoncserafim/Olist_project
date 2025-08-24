@@ -23,4 +23,7 @@ plotly==5.24.1
 matplotlib==3.10.0
 mlflow==3.2.0
 pyngrok==7.3.0
-requests==2.32.3
+requests>=2.32.3,<3.0.0
+optuna==4.4.0
+shap==0.48.0
+
